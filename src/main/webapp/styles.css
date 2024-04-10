@@ -1,0 +1,58 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebcfcf;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(211, 228, 136);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+
+textarea {
+    width: 100%; /* Full width */
+    padding: 15px; /* More padding for larger touch area */
+    margin-top: 5px; /* Keep some space above */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 7px; /* Rounded corners */
+    font-size: 20px; /* Larger text */
+}
+
+
+textarea {
+    height: 150px; /* Larger textarea */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #dda6a6;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
